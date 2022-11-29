@@ -1,0 +1,18 @@
+---
+layout: default
+title: your awesome title
+page-title: 欢迎光临小站.
+home-title: 高一头和矮半截.
+description: half-lang
+---
+
+{% include header.html %}
+{% include boot.html %}
+<main>
+    {% include title.html %}
+    <ul class="post-list">
+      {% include posts_paginator.html %}
+    </ul>
+</main>
+{% include pageNav.html %}
+{% include footer.html %}
