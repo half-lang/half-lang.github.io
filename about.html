@@ -36,11 +36,11 @@ description:
           <span id="yourname">{{ site.name1 }}</span>
           <span id="yourbio">{{ site.bio1 }}</span>
           {% if site.about1 %}
-            <span id="aboutyou1">{{ site.aboutyou1 }}</span>
+            <span id="aboutyou">{{ site.aboutyou1 }}</span>
           {% endif %}
         {% endif %}
-        {% if site.SNS %}
-          {% for sns-icon in site.SNS-icon %}
+        {% if site.SNS1 %}
+          {% for sns-icon1 in site.SNS-icon1 %}
             <a href="{{ sns-icon1[1] }}" title="{{ sns-icon1[0] }}">
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-{{ sns-icon1[0] }}"></use>
