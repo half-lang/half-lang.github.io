@@ -22,9 +22,37 @@ about: true
 aboutyou: '等有空再来填一个好的签名'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
+# 博主1
+author1: true
+name1: '高一头'
+NickName1: 'your awesome nickname'
+webtitle1: 'your awesome webtitle'
+bio1: '男的,有女票了'
+about1: true
+aboutyou1: '矮半截的好基友'
+portraits1: '/assets/profile.jpeg' # your portraits image file path
+
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
+  mail: '923071628@qq.com'
+  #weixin: '' # 你的微信二维码存放的地址
+  qq: '923071628' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  github: 'https://github.com/cqu-student'
+  Codepen: ''
+  weibo: ''
+  instagram: ''
+  Twitter: ''
+  Dribbble: ''
+  Facebook: ''
+  Google: ''
+  zhihu: ''
+  juejin: ''
+  twitch: ''
+
+  # SNS
+SNS1: true
+SNS-icon1: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
   mail: '1416001850@qq.com'
   #weixin: '' # 你的微信二维码存放的地址
   qq: '1416001850' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes

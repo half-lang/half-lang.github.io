@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 关于我
+title: 关于我们
 page-title: aboutMe
 home-title: Show you about me.
 description:
@@ -25,6 +25,25 @@ description:
             <a href="{{ sns-icon[1] }}" title="{{ sns-icon[0] }}">
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-{{ sns-icon[0] }}"></use>
+              </svg>
+            </a>
+          {% endfor%}
+        {% endif %}
+      </li>
+      <li class="fadeInUp animated">
+        {% if site.author1 %}
+          <div class="portraits"><img src="{{ site.portraits1 }}" alt=""></div>
+          <span id="yourname">{{ site.name1 }}</span>
+          <span id="yourbio">{{ site.bio1 }}</span>
+          {% if site.about1 %}
+            <span id="aboutyou1">{{ site.aboutyou1 }}</span>
+          {% endif %}
+        {% endif %}
+        {% if site.SNS %}
+          {% for sns-icon in site.SNS-icon %}
+            <a href="{{ sns-icon1[1] }}" title="{{ sns-icon1[0] }}">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-{{ sns-icon1[0] }}"></use>
               </svg>
             </a>
           {% endfor%}
