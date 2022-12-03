@@ -30,7 +30,7 @@ webtitle1: 'your awesome webtitle'
 bio1: '男的,有女票了'
 about1: true
 aboutyou1: '矮半截的好基友'
-portraits1: '/assets/profile.jpeg' # your portraits image file path
+portraits1: '/assets/profile1.jpeg' # your portraits image file path
 
 # SNS
 SNS1: true
